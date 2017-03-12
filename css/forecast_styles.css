@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    width: 694px;
+    max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
 
@@ -24,40 +25,41 @@ body {
         border: 3px solid white;
         width: 1020px;
         margin: 0 auto;*/
-    
+
 
 
 .towns {
     margin: 0;
     padding: 0;
     background-color: white;
-}    
-.towns li {
+}
+.city {
+
     list-style: none;
     display: inline-block;
     font-size: 18px;
     padding: 0;
-    height: 100px;
     text-align: center;
+    box-sizing: border-box;
 
 }
-.towns li:hover {
+.city:hover {
     opacity: 0.7;
 }
 
-.towns li:active {
+.city:active {
     opacity: 1;
 }
-.towns li p:last-child{
+.city p:last-child{
     opacity: 0.7;
 }
-.towns li .wi:nth-child(2) {
+.city .wi:nth-child(2) {
     font-size: 18px;
     opacity: 0.7;
 }
 
 .lisbon {
-    width:337px;
+    width:50%;
     border-top: 6px solid white;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
@@ -65,7 +67,7 @@ body {
     background-color: #3399cc;
 }
 .paris {
-    width:168px;
+    width:25%;
     border-top: 6px solid white;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
@@ -73,7 +75,7 @@ body {
     background-color: #33cccc;
 }
 .belgrade {
-    width:168px;
+    width:25%;
 
     border-top: 6px solid white;
     border-right: 6px solid white;
@@ -83,7 +85,7 @@ body {
 }
 
 .moscow1 {
-    width:166px;
+    width:25%;
     border-top: 3px solid white;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
@@ -92,19 +94,19 @@ body {
 }
 
 .telaviv {
-    width:166px;
+    width:25%;
     border: 3px solid white;
     background-color: #e2674a;
 }
 
 .cair {
-    width:168px;
+    width:25%;
     border: 3px solid white;
     background-color: #ffcc66;
 }
 
 .newyork {
-    width:168px;
+    width:25%;
     border-top: 3px solid white;
     border-right: 6px solid white;
     border-bottom: 3px solid white;
@@ -113,7 +115,7 @@ body {
 }
 
 .newdelphi {
-    width:166px;
+    width:25%;
     border-top: 3px solid white;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
@@ -121,12 +123,12 @@ body {
     background-color: #669999;
 }
 .sanfrancisco {
-    width:339px;
+    width:50%;
     border: 3px solid white;
     background-color: #cc6699;
 }
 .tokyo {
-    width:168px;
+    width:25%;
     border-top: 3px solid white;
     border-right: 6px solid white;
     border-bottom: 3px solid white;
@@ -134,7 +136,7 @@ body {
     background-color: #339966;
 }
 .sydney {
-    width:682px;
+    width:100%;
     border-top: 3px solid white;
     border-right: 6px solid white;
     border-bottom: 6px solid white;
